@@ -10,8 +10,21 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
+   :caption: Getting Started
 
-   Introduction.rst
+   introduction
+   availablesystems
+   remoteaccess
+
+.. toctree::
+   :maxdepth: 2
+   :caption: HPC Cluster
+
+   access
+   movingdata
+   runningjobs
+   goodpractice
+
 
 
 
