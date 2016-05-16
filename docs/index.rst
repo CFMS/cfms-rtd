@@ -21,7 +21,6 @@ Contents:
    :caption: HPC Cluster
 
    access
-   movingdata
    runningjobs
    goodpractice
 
