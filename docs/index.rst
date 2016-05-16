@@ -23,6 +23,7 @@ Contents:
    access
    runningjobs
    goodpractice
+   clusterrefresh
 
 
 
