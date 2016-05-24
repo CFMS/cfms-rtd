@@ -76,14 +76,14 @@ Interactively
 Sometimes it is useful to run jobs interactively on compute nodes (for debugging purposes for example).   SLURM can allow this
 through the 'srun' command.::
 
-  [nathharp@login02 ~]$ srun --pty bash
-  [nathharp@compa239 ~]$
+  [user@login ~]$ srun --pty bash
+  [user@compa239 ~]$
 
 This connects you to a compute node, and will give you access to all the resources you have requested.   This can also be done for
 parallel jobs::
 
-  [nathharp@login02 ~]$ srun -N 2 --pty bash
-  [nathharp@compa194 ~]$ mpirun hostname
+  [user@login ~]$ srun -N 2 --pty bash
+  [user@compa194 ~]$ mpirun hostname
   compa194
   compa195
 
