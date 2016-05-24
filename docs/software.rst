@@ -11,6 +11,7 @@ from your environment, meaning that it is not necessary to add updates to your P
 Viewing available modules
 -------------------------
 'module avail' is used to list available modules::
+  
   [user@login02 ~]$ module avail
 
   ----------------------- /net/Modules/modulefiles ------------------------
@@ -36,7 +37,7 @@ Removing Modules
   [user@login ~] module list
   No Modulefiles Currently Loaded.
 
-Alternatively 'module purge' will unload any loaded modules.  
+Alternatively 'module purge' will unload any loaded modules.
 
 
 Compilers
