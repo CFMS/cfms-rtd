@@ -39,31 +39,31 @@ who have a job running on that node at that time.
 Common Flags
 ------------
 
-* Timelimit -t D-HH:MM:SS - sets the runtime limit for the job::
+* Timelimit: -t D-HH:MM:SS - sets the runtime limit for the job::
 
   -t 1-14:13:00
 
 sets a runtime of 1 day, 14 hours, 13 minues and 00 seconds.
 
-* Account -A <accountname> - submits the job against the named account::
+* Account: -A <accountname> - submits the job against the named account::
 
   -A cfms
 
 submits against the CFMS account.
 
-* Number of nodes -N <number>::
+* Number of nodes: -N <number>::
 
   -N 4
 
 requests 4 nodes from the cluster - commonly used with:
 
-* Tasks per node --ntasks-per-node=<ntasks> - requests a specific number of cores per node::
+* Tasks per node: --ntasks-per-node=<ntasks> - requests a specific number of cores per node::
 
   --ntasks-per-node=12
 
 requests 12 cores per node
 
-* Number of cores -n <number of cores> - used instead of -N/--ntasks-per-node combination::
+* Number of cores: -n <number of cores> - used instead of -N/--ntasks-per-node combination::
 
   -n 120
 
