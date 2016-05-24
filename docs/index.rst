@@ -22,5 +22,6 @@ Contents:
 
    access
    runningjobs
+   software
    goodpractice
    clusterrefresh
