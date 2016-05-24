@@ -13,7 +13,7 @@ Checking Available Resources
 
 The command **sinfo** will show the current state of the cluster giving the example below:::
 
- standard*           up   infinite     51  alloc compa[181-183,185-190,192,195-199,201-220,222-227,229-235,237-238,240]
+  standard*           up   infinite     51  alloc compa[181-183,185-190,192,195-199,201-220,222-227,229-235,237-238,240]
   standard*           up   infinite      1   idle compa239
   standard*           up   infinite      2   down compa[184,194]
   gpu                 up   infinite      3   idle gpu[1-3]
@@ -76,13 +76,13 @@ Interactively
 Sometimes it is useful to run jobs interactively on compute nodes (for debugging purposes for example).   SLURM can allow this
 through the 'srun' command.::
 
- [nathharp@login02 ~]$ srun --pty bash
+  [nathharp@login02 ~]$ srun --pty bash
   [nathharp@compa239 ~]$
 
 This connects you to a compute node, and will give you access to all the resources you have requested.   This can also be done for
 parallel jobs::
 
- [nathharp@login02 ~]$ srun -N 2 --pty bash
+  [nathharp@login02 ~]$ srun -N 2 --pty bash
   [nathharp@compa194 ~]$ mpirun hostname
   compa194
   compa195
@@ -98,7 +98,7 @@ along with the 'sbatch' command::
 
 Or included at the top of the job submission file::
 
- #!/bin/bash -l
+  #!/bin/bash -l
   #SBATCH -n 120
   #SBATCH -t 12:00:00
   #SBATCH -A cfms
