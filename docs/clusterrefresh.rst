@@ -14,7 +14,7 @@ more compact and using the same amount of power.
 
 Timetable
 ========
-Equipment will begin arriving onsite in May 2016.   There will be a phased cutover or service taking place over June-July, during
+Equipment will begin arriving onsite in May 2016.   There will be a phased cutover of service taking place over June-July, during
 which there will be a diminished capacity (however, we will keep service level as high as possible)
 The iDataPlex system will be completely powered off before the end of August 2016.
 
