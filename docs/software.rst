@@ -21,11 +21,10 @@ Viewing available modules
   openmpi/1.8.4-gcc
   openmpi/1.6.5-gcc
   ----------------------- /opt/modulefiles/compilers ------------------------
-  intel/2016.3
-  cintel/2015.6
+  intel/2016.3                gcc/4.9.4
+  cintel/2015.6               gcc/4.8.7
   gcc/5.0.2
-  gcc/4.9.4
-  gcc/4.8.7
+
 
 Loading Modules
 ---------------
