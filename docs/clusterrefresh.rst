@@ -49,6 +49,6 @@ should provide additonal compute peformance per node, while reducing FLOPS/watt.
 
 New Storage
 -----------
-Our existing GPFS storage cluster is to be retired, and replaced with a larger, more stable and more performance solution.   This
+Our existing GPFS storage cluster is to be retired, and replaced with a larger, more stable and more performant solution.   This
 will be a new and separate storage system and we are not planning to migrate user data.   However, we will provide guidance and
 support to help users move any data that they wish to keep.
