@@ -13,9 +13,9 @@ Checking Available Resources
 
 The command **sinfo** will show the current state of the cluster giving the example below:::
 
-  standard*           up   infinite     51  alloc compa[181-183,185-190,192,195-199,201-220,222-227,229-235,237-238,240]
-  standard*           up   infinite      1   idle compa239
-  standard*           up   infinite      2   down compa[184,194]
+  prod*               up   infinite     51  alloc compa[181-183,185-190,192,195-199,201-220,222-227,229-235,237-238,240]
+  prod*               up   infinite      1   idle compa239
+  prod*               up   infinite      2   down compa[184,194]
   gpu                 up   infinite      3   idle gpu[1-3]
   highmem             up   infinite      1  down* compb013
   highmem             up   infinite      5  alloc compb[028-030,065-066]
