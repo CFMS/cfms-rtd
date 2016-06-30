@@ -11,15 +11,21 @@ from your environment, meaning that it is not necessary to add updates to your P
 Viewing available modules
 -------------------------
 'module avail' is used to list available modules::
-  
-  [user@login02 ~]$ module avail
 
-  ----------------------- /net/Modules/modulefiles ------------------------
-  mpi/intel/5.0.6.28          compiler/intel/2016.3
-  mpi/intel/5.0.1.27          compiler/intel/2015.6
-  mpi/openmpi/1.10.2          compiler/gcc/5.0.2
-  mpi/openmpi/1.8.4           compiler/gcc/4.9.4
-  mpi/openmpi/1.6.5           compiler/gcc/4.8.7
+  [user@clogin02 ~]$ module avail
+
+  ----------------------- /net/Modules/modulefiles/mpi ------------------------
+  impi/5.0.6.28               openmpi/1.10.2-icc
+  impi/5.0.1.27               openmpi/1.8.4-icc
+  openmpi/1.10.2-gcc          openmpi/1.6.5-icc
+  openmpi/1.8.4-gcc
+  openmpi/1.6.5-gcc
+  ----------------------- /net/Modules/modulefiles/compilers ------------------------
+  intel/2016.3
+  cintel/2015.6
+  gcc/5.0.2
+  gcc/4.9.4
+  gcc/4.8.7
 
 Loading Modules
 ---------------
@@ -43,14 +49,22 @@ Alternatively 'module purge' will unload any loaded modules.
 Compilers
 =========
 
+The system is provided with GCC 4.8.5, but there are also other GCC versions, and also the Intel Parallel Studio XE, which includes C and
+Fortran compilers, along with other optimised libraries and tools
+
 MPI
 ===
+
+Initially OpenMPI and Intel MPI are provided for use on the system.   The environment for these can be loaded using the appropriate modules.
+OpenMPI has been provided using both gcc and the Intel compiler (icc).
 
 CFD
 ===
 
 Fluent
 ------
+Fluent is installed on the cluster.    Your organisation will have to provide licenses for this software to be used however.
 
 OpenFOAM
 --------
+Different versions of OpenFOAM are installed on the system.
