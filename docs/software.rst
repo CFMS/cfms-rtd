@@ -38,6 +38,7 @@ Loading Modules
 Removing Modules
 ----------------
 'module unload <modulename>' will unload that specific module::
+  
   [user@login ~] module unload mpi/openmpi/1.10.2
   [user@login ~] module list
   No Modulefiles Currently Loaded.
