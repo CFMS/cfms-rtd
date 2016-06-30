@@ -6,10 +6,7 @@ Command Line Access
 ===================
 
 All of the interactive nodes are available via SSH access.   SSH tools are
-included by default on most Linux distributions and OSX.   There are several
-alternatives for SSH access on Windows, with the most popular being PuTTY_
-
-.. _PuTTY: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+included by default on most Linux distributions and OSX.
 
 Linux/OSX
 ---------
@@ -24,11 +21,13 @@ eg::
 
 whereupon you will be prompted for a password
 
-SSH Key access
---------------
-
 Windows
 -------
+
+There are several
+alternatives for SSH access on Windows, with the most popular being PuTTY_
+
+.. _PuTTY: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
 
 
 
@@ -62,6 +61,6 @@ To access graphical applications, an X server is required on your client.   This
 installed on OSX (xQuartz).   However, this does not offer any compression, and so can be particularly sluggish on remote connections.
 
 We recommend the use of Nomachine_ to access our systems for graphical work. If you wish to use Nomachine, please contact our support
-team for access details. 
+team for access details.
 
 .. _Nomachine: https://www.nomachine.com/download
