@@ -14,13 +14,13 @@ Viewing available modules
 
   [user@clogin02 ~]$ module avail
 
-  ----------------------- /net/Modules/modulefiles/mpi ------------------------
+  ----------------------- /opt/modulefiles/mpi ------------------------
   impi/5.0.6.28               openmpi/1.10.2-icc
   impi/5.0.1.27               openmpi/1.8.4-icc
   openmpi/1.10.2-gcc          openmpi/1.6.5-icc
   openmpi/1.8.4-gcc
   openmpi/1.6.5-gcc
-  ----------------------- /net/Modules/modulefiles/compilers ------------------------
+  ----------------------- /opt/modulefiles/compilers ------------------------
   intel/2016.3
   cintel/2015.6
   gcc/5.0.2
