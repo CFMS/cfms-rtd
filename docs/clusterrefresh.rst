@@ -45,7 +45,7 @@ we will provide a small test environment continuing to run GridEngine.
 New Processors
 --------------
 The new cluster will include the latest generation Intel E5-26XX v4 (Broadwell) Xeon CPUs, along with Nvidia K80 GPUs.   These
-should provide additonal compute peformance per node, while reducing FLOPS/watt.
+should provide additonal compute peformance per node, while improving FLOPS/watt.
 
 New Storage
 -----------
