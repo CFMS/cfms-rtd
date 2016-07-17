@@ -52,3 +52,20 @@ New Storage
 Our existing GPFS storage cluster is to be retired, and replaced with a larger, more stable and more performant solution.   This
 will be a new and separate storage system and we are not planning to migrate user data.   However, we will provide guidance and
 support to help users move any data that they wish to keep.
+
+Transferring Data
+=================
+
+Tools
+-----
+Data can be easily transferred between clusters.   We would generally recommend the use of 'rsync' to do so.::
+
+  rsync -avh <local directory> <remote server>:<remote directory>
+
+eg::
+
+  rsync -avh mydirectory clogin02:myproject
+
+What Data Should I Transfer
+---------------------------
+We would recommend using this as an opportunity to go through your data, and chose to transfer only what you intend to keep
