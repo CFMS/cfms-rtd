@@ -60,7 +60,12 @@ Graphical Access
 To access graphical applications, an X server is required on your client.   This is generally installed on Linux, and can easily be
 installed on OSX (xQuartz).   However, this does not offer any compression, and so can be particularly sluggish on remote connections.
 
-We recommend the use of Nomachine_ to access our systems for graphical work. If you wish to use Nomachine, please contact our support
-team for access details.
+We recommend the use of Nomachine_ to access our systems for graphical work. If you wish to use Nomachine, download the NoMachine client
+and target the interactive nodes using the following configuration:
+
+ - SSH protocol
+ - No alternative key
+ - No proxy
+
 
 .. _Nomachine: https://www.nomachine.com/download
