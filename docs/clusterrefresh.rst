@@ -68,4 +68,4 @@ eg::
 
 What Data Should I Transfer
 ---------------------------
-We would recommend using this as an opportunity to go through your data, and chose to transfer only what you intend to keep
+We would recommend using this as an opportunity to go through your data, and chose to transfer only what you intend to keep 
