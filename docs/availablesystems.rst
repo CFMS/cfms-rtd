@@ -27,5 +27,10 @@ Our secondary cluster is comprised of systems from a number of manufacturers, in
 Virtualised Systems
 ===================
 
+We have a number of virtualised platforms for running general purpose workloads.  For more information, please contact us.
+
 Technology Lab
 ==============
+
+CFMS hosts a 'technology lab' where we can host hardware or software for short or long periods.   This is particularly useful for developing
+proof-of-concept implementations, or determining how a technology will integrate with a current workflow.
