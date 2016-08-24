@@ -16,7 +16,7 @@ Timetable
 ========
 Equipment will begin arriving onsite in May 2016.   There will be a phased cutover of service taking place over June-July, during
 which there will be a diminished capacity (however, we will keep service level as high as possible)
-The iDataPlex system will be completely powered off before the end of August 2016.
+The iDataPlex system will be completely powered off before the end of September 2016.
 
 What Do I Need to Know?
 =======================
@@ -68,4 +68,4 @@ eg::
 
 What Data Should I Transfer
 ---------------------------
-We would recommend using this as an opportunity to go through your data, and chose to transfer only what you intend to keep 
+We would recommend using this as an opportunity to go through your data, and chose to transfer only what you intend to keep.
