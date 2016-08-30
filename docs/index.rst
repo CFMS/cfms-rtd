@@ -23,5 +23,6 @@ Contents:
    access
    runningjobs
    software
+   workingcollaboratively
    goodpractice
    clusterrefresh
