@@ -68,6 +68,6 @@ Openconnect is available from the Fedora base repositiories and can be installed
 
 The connection can then be initiated using::
 
-  sudo openconnect --juniper cfms-vpn.cfms.org.uk/hpc
+  sudo openconnect --juniper TBC
 
 and inputting your username and password when requested.
