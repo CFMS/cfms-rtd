@@ -107,3 +107,12 @@ Or included at the top of the job submission file::
 
 SLURM has tight integration with almost all MPIs, so there is no requirement to create a machinefile to use MPI.  Some MPI do have
 SLURM related options (please see MPI section in 'Software' for more information)
+
+
+Converting from GridEngine
+--------------------------
+
+.. _here: file:///Users/nathharp/Desktop/rosetta.pdf
+
+A 'Rosetta Stone of Job Schedulers' is provided to help make the transition between different job schedulers.   The PDF can be
+downloaded from here_
