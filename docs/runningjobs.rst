@@ -112,7 +112,7 @@ SLURM related options (please see MPI section in 'Software' for more information
 Converting from GridEngine
 --------------------------
 
-.. _here: file:///Users/nathharp/Desktop/rosetta.pdf
+.. _here: http://slurm.schedmd.com/rosetta.pdf
 
 A 'Rosetta Stone of Job Schedulers' is provided to help make the transition between different job schedulers.   The PDF can be
 downloaded from here_
