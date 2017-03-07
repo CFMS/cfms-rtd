@@ -11,7 +11,7 @@ VPN
 ---
 
 The VPN is provided by 'Pulse Secure' (previously Juniper Pulse/Network Connect).   There are native
-'Pulse Secure' clients for Windows and OSX, or 'openconnect' on Linux.
+'Pulse Secure' clients for Windows and macOS, or 'openconnect' on Linux.
 
 Windows/macOS
 =============
@@ -20,7 +20,7 @@ You will be provided the installer for Pulse Connect.   Once installed, create a
 on the '+' and inputting the configuration settings::
 
   Connection Name: CFMS HPC
-  Server URL: TBC
+  Server URL: <URL provied by CFMS Support>
 
 Once configured, click 'connect' and enter your password and when prompted.
 
@@ -38,7 +38,7 @@ Openconnect is available from the main Ubuntu repositories and can be installed 
 
 The connection can then be initiated using::
 
-  sudo openconnect --juniper (URL TBC)
+  sudo openconnect --juniper <URL provided by CFMS Support>
 
 and inputting your username and password when requested.
 
@@ -55,7 +55,7 @@ Then install openconnect::
 
 The connection can then be initiated using::
 
-  sudo openconnect --juniper (URL TBC)
+  sudo openconnect --juniper <URL provided by CFMS Support>
 
 and inputting your username and password when requested.
 
@@ -68,6 +68,6 @@ Openconnect is available from the Fedora base repositiories and can be installed
 
 The connection can then be initiated using::
 
-  sudo openconnect --juniper TBC
+  sudo openconnect --juniper <URL provided by CFMS Support>
 
 and inputting your username and password when requested.

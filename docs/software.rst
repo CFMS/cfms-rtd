@@ -45,18 +45,29 @@ Removing Modules
 
 Alternatively 'module purge' will unload any loaded modules.
 
+Module Conflicts
+----------------
+Incompatible modules are configured to conflct with each other, and will not allow two conflicting modules to be loaded.  For example, loading two
+OpenMPI modules into your environment can cause inconsistent or unexpected results.
+
 
 Compilers
 =========
 
 The system is provided with GCC 4.8.5, but there are also other GCC versions, and also the Intel Parallel Studio XE, which includes C and
-Fortran compilers, along with other optimised libraries and tools
+Fortran compilers, along with other optimised libraries and tools.
 
 MPI
 ===
 
 Initially OpenMPI and Intel MPI are provided for use on the system.   The environment for these can be loaded using the appropriate modules.
 OpenMPI has been provided using both gcc and the Intel compiler (icc).
+
+OpenMPI
+-------
+Each version of OpenMPI has been compiled with a specific compiler - if you are planning to build software against a OpenMPI, it is advised
+to use that same compiler.   Loading the '-gcc' modules for OpenMPI will not load any additional modules, whereas loading the '-icc' versions will
+also load the relevant Intel compiler module.
 
 CFD
 ===

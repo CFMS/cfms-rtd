@@ -29,7 +29,11 @@ Sometimes you will see available resources, but your job still has not started. 
 for another queued job.   Running::
 
   squeue --start
-will show you when your job is due to start.
+will show you when your job is due to start.   This command will work only if you are awaiting available resources, but not if you are
+waiting on your group limits.
+
+  squota
+will show the usage of the quotas that you have access to.
 
 Submitting Jobs
 ===============
