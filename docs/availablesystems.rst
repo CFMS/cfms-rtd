@@ -22,7 +22,8 @@ Available Queues:
 Secondary Cluster
 -----------------
 
-Our secondary cluster is comprised of systems from a number of manufacturers, including IBM, Bull and HP.
+Our secondary cluster is comprised of systems from a number of manufacturers, including IBM, Bull and HP.  This system is provided for specific
+customers and projects.
 
 Virtualised Systems
 ===================
