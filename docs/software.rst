@@ -76,7 +76,54 @@ Fluent
 ------
 Fluent is installed on the cluster.    Your organisation will have to provide licenses for this software to be used.
 
+To run a Fluent job in batch, you will need to provide a journal file.   First create a script 'fluent-batch.sh' with the below content,
+updating the 'FLUENTVER' variable to the particular version you would like to run:
+
+  #!/usr/bin/env bash
+  #SBATCH -o fluent-%j.out
+  FLUENTVER=v161
+  HOSTSFILE=.hostlist-job$SLURM_JOB_ID
+  JOURNALFILE=$1
+  if [ "$SLURM_PROCID" == "0" ]; then
+     srun hostname -f | sort > $HOSTSFILE
+     /gpfs/apps/ansys_inc/$FLUENTVER/fluent/bin/fluent -pinfiniband -g -t $SLURM_NTASKS -cnf=$HOSTSFILE -ssh 3d -i $JOURNALFILE
+     rm -f $HOSTSFILE
+  fi
+  exit 0
+
+change the permission to allow it to be executed:
+
+  chmod u+x fluent-batch.sh
+
+These jobs can then be submitted as standard sbatch jobs:
+
+  sbatch -N 2 --ntasks-per-node=24 fluent-batch.sh <journal file>
+
+Fluent can also be run interactively in parallel.   Although we generally wouldn't recommend without using in conjunction with a node reservation to
+ensure that resources are available.
+
+First create a script 'fluent-interactive.sh' with the below content,updating the 'FLUENTVER' variable to the particular version you would like to run:
+
+  #!/usr/bin/env bash
+  FLUENTVER=v161
+  HOSTSFILE=.hostlist-job$SLURM_JOB_ID
+  if [ "$SLURM_PROCID" == "0" ]; then
+     srun hostname -f > $HOSTSFILE
+     /gpfs/apps/ansys_inc/$FLUENTVER/fluent/bin/fluent -pinfiniband -t $SLURM_NTASKS -cnf=$HOSTSFILE -ssh 3d
+     rm -f $HOSTSFILE
+  fi
+  exit 0
+
+change the permission to allow it to be executed:
+
+  chmod u+x fluent-interactive.sh
+
+These jobs can then be submitted as standard srun jobs:
+
+  srun -N 2 --ntasks-per-node=24 --x11=first fluent-interactive.sh
+  
+
 OpenFOAM
 --------
-Different versions of OpenFOAM are installed on the system.   Please see /gpfs/apps/OpenFOAM/README for the enviornment that is required to load
+Different versions of OpenFOAM are installed on the system.   Please see /gpfs/apps/OpenFOAM/README for the environment that is required to load
 a particular version.
