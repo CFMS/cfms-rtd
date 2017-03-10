@@ -77,7 +77,7 @@ Fluent
 Fluent is installed on the cluster.    Your organisation will have to provide licenses for this software to be used.
 
 To run a Fluent job in batch, you will need to provide a journal file.   First create a script 'fluent-batch.sh' with the below content,
-updating the 'FLUENTVER' variable to the particular version you would like to run:
+updating the 'FLUENTVER' variable to the particular version you would like to run::
 
   #!/usr/bin/env bash
   #SBATCH -o fluent-%j.out
@@ -91,18 +91,18 @@ updating the 'FLUENTVER' variable to the particular version you would like to ru
   fi
   exit 0
 
-change the permission to allow it to be executed:
+change the permission to allow it to be executed::
 
   chmod u+x fluent-batch.sh
 
-These jobs can then be submitted as standard sbatch jobs:
+These jobs can then be submitted as standard sbatch jobs::
 
   sbatch -N 2 --ntasks-per-node=24 fluent-batch.sh <journal file>
 
 Fluent can also be run interactively in parallel.   Although we generally wouldn't recommend without using in conjunction with a node reservation to
 ensure that resources are available.
 
-First create a script 'fluent-interactive.sh' with the below content,updating the 'FLUENTVER' variable to the particular version you would like to run:
+First create a script 'fluent-interactive.sh' with the below content,updating the 'FLUENTVER' variable to the particular version you would like to run::
 
   #!/usr/bin/env bash
   FLUENTVER=v161
@@ -114,14 +114,14 @@ First create a script 'fluent-interactive.sh' with the below content,updating th
   fi
   exit 0
 
-change the permission to allow it to be executed:
+change the permission to allow it to be executed::
 
   chmod u+x fluent-interactive.sh
 
-These jobs can then be submitted as standard srun jobs:
+These jobs can then be submitted as standard srun jobs::
 
   srun -N 2 --ntasks-per-node=24 --x11=first fluent-interactive.sh
-  
+
 
 OpenFOAM
 --------
