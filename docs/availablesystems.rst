@@ -5,7 +5,7 @@ Available Systems
 HPC Clusters
 ============
 
-Primary Cluster
+Primary Cluster - 'CS'
 ---------------
 
 Our primary cluster is a Cray CS-400 system, utilising Intel Xeon E5-2600 v4 (Broadwell) CPUs and a Mellanox Infiniband high-speed
@@ -19,7 +19,7 @@ Available Queues:
 + small - 24 cores, 64GB RAM
 
 
-Secondary Cluster
+Secondary Cluster - 'FC'
 -----------------
 
 Our secondary cluster is comprised of systems from a number of manufacturers, including IBM, Bull and HP.  This system is provided for specific

@@ -25,4 +25,3 @@ Contents:
    software
    workingcollaboratively
    goodpractice
-   clusterrefresh
