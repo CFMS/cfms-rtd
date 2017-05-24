@@ -120,3 +120,28 @@ Converting from GridEngine
 
 A 'Rosetta Stone of Job Schedulers' is provided to help make the transition between different job schedulers.   The PDF can be
 downloaded from here_
+
+Grid Engine Commands
+====================
+
+Part of the FC system continues to use GridEngine to manage the workload.   To manage workloads on this system:
+
+To submit jobs
+
+  qsub <jobscript>
+
+To view your jobs
+
+  qstat
+
+To view all jobs
+
+  qstat -u "*"
+
+To cancel a job
+
+  qdel <jobnumber>
+
+To view your quota
+
+  qquota
