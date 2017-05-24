@@ -125,5 +125,7 @@ These jobs can then be submitted as standard srun jobs::
 
 OpenFOAM
 --------
-Different versions of OpenFOAM are installed on the system.   Please see /gpfs/apps/OpenFOAM/README for the environment that is required to load
-a particular version.
+At present OpenFOAM 16.06 is available on the cluster.   This has been built against an optimised OpenMPI build which will take full advantage of
+our accelerated Infiniband fabric.  To load this version of OpenFOAM into your nevironment, use:
+
+  module load openfoam/16.06
