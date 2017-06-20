@@ -15,6 +15,7 @@ Contents:
    introduction
    availablesystems
    remoteaccess
+   howtoaskforsupport
 
 .. toctree::
    :maxdepth: 2
