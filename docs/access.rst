@@ -64,6 +64,7 @@ We recommend the use of Nomachine_ to access our systems for graphical work. If 
 and target the interactive nodes using the following configuration:
 
  - SSH protocol
+ - Use the Nomachine Protocol
  - No alternative key
  - No proxy
 
