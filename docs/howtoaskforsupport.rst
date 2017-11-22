@@ -19,6 +19,7 @@ as possible:
 - Do you see any errors?   If so, please include logfiles or screenshots as appropriate
 - (HPC) - what interactive node are you working on
 - (HPC) - what are your job numbers
+- (HPC) - copies of your submission script
 - (HPC) - what nodes are affected
 
 
