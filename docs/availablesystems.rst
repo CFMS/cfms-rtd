@@ -13,13 +13,11 @@ interconnect.  The system is running RHEL/CentOS 7.2 releases, along with the la
 
 
 Available Queues:
-+ standard - 24 cores, 128GB RAM
 
-+ highmem - 16 cores, 256GB RAM
-
-+ k80 - 16 cores, 64GB RAM, 2x K80 GPUs
-
-+ small - 24 cores, 64GB RAM
+- standard - 24 cores, 128GB RAM
+- highmem - 16 cores, 256GB RAM
+- K80 - 16 cores, 64GB RAM, 2x K80 GPUs
+- small - 24 cores, 64GB RAM
 
 
 Secondary Cluster - 'FC'
