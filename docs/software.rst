@@ -69,6 +69,12 @@ Each version of OpenMPI has been compiled with a specific compiler - if you are 
 to use that same compiler.   Loading the '-gcc' modules for OpenMPI will not load any additional modules, whereas loading the '-icc' versions will
 also load the relevant Intel compiler module.
 
+Available Versions of OpenMPI:
+- 1.6.5-icc (built with Intel Compiler 2016)
+- 1.6.5-gcc (built with GCC 4.8.5)
+- 1.10.3-icc (built with Intel Compiler 2016)
+- 1.10.3-gcc (built with GCC 4.8.5)
+
 CFD
 ===
 
