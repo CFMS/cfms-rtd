@@ -75,6 +75,10 @@ Available Versions of OpenMPI:
 - 1.6.5-gcc (built with GCC 4.8.5)
 - 1.10.3-icc (built with Intel Compiler 2016)
 - 1.10.3-gcc (built with GCC 4.8.5)
+- 2.1.1-icc (built with Intel Compiler 2017)
+- 2.1.1-gcc (built with GCC 4.8.5)
+- 3.0.0-icc (built with Intel Compiler 2018)
+- 3.0.0-gcc (built with GCC 4.8.5)
 
 CFD
 ===
