@@ -70,6 +70,7 @@ to use that same compiler.   Loading the '-gcc' modules for OpenMPI will not loa
 also load the relevant Intel compiler module.
 
 Available Versions of OpenMPI:
+
 - 1.6.5-icc (built with Intel Compiler 2016)
 - 1.6.5-gcc (built with GCC 4.8.5)
 - 1.10.3-icc (built with Intel Compiler 2016)
