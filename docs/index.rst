@@ -26,3 +26,8 @@ Contents:
    software
    workingcollaboratively
    goodpractice
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Policies
+   usagepolicy
