@@ -28,6 +28,6 @@ Contents:
    goodpractice
 
 .. toctree::
-  :maxdepth: 2
-  :caption: Policies
+   :maxdepth: 2
+   :caption: Policies
    usagepolicy
