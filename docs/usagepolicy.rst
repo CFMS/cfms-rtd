@@ -12,6 +12,7 @@ Access to CFMS facilities is therefore granted solely for the purposes of meetin
 
 + Making your personal username and password (also known as a “user account”) available for other people to use on your behalf.
 + Leave their user accounts logged in at an unattended and unlocked computer.
++ Modify the permissions of your home directory to give other users access to your personal storage.
 + Use someone else’s user ID and password to access CFMS IT systems.
 + Leave their password unprotected (for example writing it down).
 + Attempting to gain or facilitate unauthorised access to a system..
