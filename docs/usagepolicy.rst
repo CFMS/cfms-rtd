@@ -1,6 +1,6 @@
-=====================================
-High Performance Computing Use Policy
-=====================================
+=========================
+CFMS Computing Use Policy
+=========================
 
 
 All users of CFMS Services Ltd systems are required to accept and adhere to the following terms and conditions:
@@ -27,7 +27,7 @@ Data Storage Policy
 ===================
 Data Availability
 -----------------
-All data uploaded or generated on the HPC cluster remains the responsibility of the user.   Although CFMS implement technologies to help ensure the availability of the data, the parallel filesystem is not backed up offsite, and in case of catastrophic failure, this data could be lost.
+All data uploaded or generated on the HPC clusters or other IT systems remains the responsibility of the user.   Although CFMS implement technologies to help ensure the availability of the data, filesystems are not backed up offsite, and in case of catastrophic failure, this data could be lost.
 
 Data Encryption
 ---------------
