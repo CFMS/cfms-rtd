@@ -10,8 +10,16 @@ be using to access the systems here, please contact support@cfms.org.uk
 VPN
 ---
 
-The VPN is provided by 'Pulse Secure' (previously Juniper Pulse/Network Connect).   There are native
-'Pulse Secure' clients for Windows and macOS, or 'openconnect' on Linux.
+The VPN is provided by 'Pulse Secure' (previously Juniper Pulse/Network Connect).
+There are native 'Pulse Secure' clients for Windows and macOS, or 'openconnect' on Linux.
+
+We use Google Authenticator to provide two factor authentication, which provides an additional security layer
+
+Before First Connection
+=======================
+
+Open a web browser and open the VPN URL as provided by CFMS support.  Login with your provided credentials and 
+follow the instructions to install Google Authenticator and configure it to your account.
 
 Windows/macOS
 =============
