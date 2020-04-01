@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# CFMS-rtd documentation build configuration file, created by
+# CFMS Knowledgebase documentation build configuration file, created by
 # sphinx-quickstart on Tue May 10 14:00:14 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -51,7 +51,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'CFMS-rtd'
+project = u'CFMS Knowledgebase'
 copyright = u'2016, Nathan Harper'
 author = u'Nathan Harper'
 
@@ -60,7 +60,7 @@ author = u'Nathan Harper'
 # built documents.
 #
 # The short X.Y version.
-version = u'0.1'
+version = u'0.2'
 # The full version, including alpha/beta/rc tags.
 release = u'0.1'
 
@@ -126,7 +126,7 @@ todo_include_todos = False
 
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
-#html_title = u'CFMS-rtd v0.1'
+#html_title = u'CFMS Knowledgebase v0.2'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
