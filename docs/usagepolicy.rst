@@ -98,10 +98,10 @@ The Information Is Stored Because:
 
 CFMS Services Ltd contact information
 ::
-  Email:  support@cfms.org.uk
-  Post:	CFMS Services Limited
-  Bristol and Bath Science Park,
-  Dirac Crescent
-  Emersons Green
-  BS16 7FR
-  Telephone:  	+44 (0)117 9061100
+Email:  support@cfms.org.uk
+Post:	CFMS Services Limited
+Bristol and Bath Science Park,
+Dirac Crescent
+Emersons Green
+BS16 7FR
+Telephone:  	+44 (0)117 9061100
