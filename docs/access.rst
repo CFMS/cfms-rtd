@@ -61,13 +61,52 @@ Graphical Access
 To access graphical applications, an X server is required on your client.   This is generally installed on Linux, and can easily be
 installed on OSX (xQuartz).   However, this does not offer any compression, and so can be particularly sluggish on remote connections.
 
-We recommend the use of Nomachine_ to access our systems for graphical work. If you wish to use Nomachine, download the NoMachine client
+We recommend the use of Nomachine to access our systems for graphical work. If you wish to use Nomachine, download the NoMachine client
 and target the interactive nodes using the following configuration:
 
- - SSH protocol
- - Use the Nomachine Protocol
- - No alternative key
- - No proxy
 
+.. figure:: objects/nomachine01.png
+  :width: 700
+  :alt: SSH Protocol
+  :align: center
 
-.. _Nomachine: https://www.nomachine.com/download
+  SSH Protocol
+
+.. figure:: objects/nomachine02.png
+  :width: 700
+  :alt: Input the IP of one of the clogin nodes
+  :align: center
+
+  Input the IP of one of the clogin nodes
+
+.. figure:: objects/nomachine03.png
+  :width: 700
+  :alt: Use Nomachine login
+  :align: center
+
+  Use Nomachine login
+
+.. figure:: objects/nomachine04.png
+  :width: 700
+  :alt: No alternative key
+  :align: center
+
+  No alternative key
+
+.. figure:: objects/nomachine05.png
+  :width: 700
+  :alt: No proxy
+  :align: center
+
+  No proxy
+
+.. figure:: objects/nomachine06.png
+  :width: 700
+  :alt: Name the connection
+  :align: center
+
+  Name the connection
+
+Unfortunately, for a variety of reasons the latest version of the Nomachine client is not supported on our system,
+but Nomachine provide only the latest version on their download portal.   If you need a previous version of the client,
+please contact support@cfms.org.uk
