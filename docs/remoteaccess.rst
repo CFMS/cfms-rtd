@@ -27,10 +27,29 @@ Windows/macOS
 =============
 
 You will be provided the installer for Pulse Connect.   Once installed, create a new connection by clicking
-on the '+' and inputting the configuration settings::
+on the '+' and inputting the configuration settings
 
-  Connection Name: CFMS HPC
-  Server URL: <URL provied by CFMS Support>
+.. figure:: objects/pulsesecure01.png
+  :width: 500
+  :alt: Pulse Secure
+  :align: center
+
+  Add new connection
+
+
+.. figure:: objects/pulsesecure02.png
+  :width: 500
+  :alt: Configure the connection 
+  :align: center
+
+  Configure the connection
+
+.. figure:: objects/pulsesecure03.png
+  :width: 500
+  :alt: Start the connection
+  :align: center
+
+  Start the connection
 
 Once configured, click 'connect' and enter your password and when prompted.
 
